@@ -1,0 +1,24 @@
+#include<stdio.h>
+
+int main() {
+    int a[10], sum=0;
+    float avg;
+
+    printf("Enter the number here you want to find the average of a number ");
+
+    for (int x = 0; x < 10; x++)
+    {
+        scanf("%d", &a[i]);
+    }
+    for (int x = 0; x < 10; x++)
+    {
+       sum=sum+a[x];
+    }
+    avg=sum/10.0;
+    printf("The sum is %d", &sum);
+    printf("The average number is %f", avg);
+
+
+
+    return 1;
+}
